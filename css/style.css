@@ -49,10 +49,13 @@ footer{
    height: 100vh;
 }
 .card-zoom{
-   width: calc(14% - 10px);
-   height: 150px;
+   width: 100px;
+   height: 100px;
    position: relative;
    margin: 5px;
+}
+.wrap{
+   flex-wrap: wrap;
 }
 
 .mic-name{
