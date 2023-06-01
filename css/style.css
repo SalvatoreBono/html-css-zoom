@@ -47,6 +47,7 @@ header, footer{
    flex-grow: 1;
    height: 100vh;
    overflow: auto;
+   height:calc(100vh - 100px);
 }
 .container{
    width: 1700px;
