@@ -93,29 +93,38 @@ header {
    background-repeat: no-repeat;
    background-size: cover;
 }
-
-footer {
-   padding: 15px;
-}
-
-footer i {
-   padding-bottom: 7px;
-}
-
-.mic {
-   padding-right: 30px;
-}
-
 .big-btn {
    font-size: 25px;
+   text-align: center;
 }
-
-.small-btn {
-   font-size: 8px;
-   margin-left: 20px;
+footer section i{
+   padding-right: 25px;
 }
-
-.center {
+.small-btn{
+   font-size: 12px;
+}
+.left-btn{
+   align-items: center;
+   padding-left: 15px;
+}
+.center-btn {
    justify-content: center;
    flex-grow: 1;
+   align-items: center;
+}
+.center-text{
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+   color: white;
+}
+.btn-exit{
+   display: flex;
+   color: red;
+   align-items: center;
+   background-color: rgb(74, 74, 74);
+   padding: 15px; 
+}
+.min-padding{
+   padding-right: 15px;
 }
