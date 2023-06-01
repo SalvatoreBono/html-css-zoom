@@ -17,6 +17,10 @@ header{
 footer{
    background-color: rgb(34, 34, 34);
 }
+
+header, footer{
+   height: 50px;
+}
 .flex{
    width: 100%;
    display: flex;
@@ -35,7 +39,8 @@ footer{
    margin-left: 10px;
 }
 .main{
-   padding-top: 20px;
+   padding-top: 50px;
+   padding-bottom: 30px;
    padding-left: 75px;
    padding-right: 75px;
    display: flex;
@@ -49,7 +54,7 @@ footer{
    height: 100vh;
 }
 .card-zoom{
-   width: calc(33% - 10px);
+   width: calc(14% - 10px);
    position: relative;
    margin: 5px;
 }
@@ -75,7 +80,7 @@ footer{
    padding: 10px;
 }
 footer i {
-   font-size: 35px;
+   font-size: 25px;
    padding-top: 10px;
    padding-bottom: 10px;
 }
