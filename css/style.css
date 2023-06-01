@@ -41,18 +41,20 @@ footer{
    display: flex;
    flex-grow: 1;
    height: 100vh;
-}
-.container{
-   width: 600px;
-   height: 100vh;
    overflow: auto;
 }
+.container{
+   width: 1700px;
+   overflow: auto;
+   height: 100vh;
+}
 .card-zoom{
-   width: 250px;
+   width: calc(14% - 10px);
    height: 150px;
    position: relative;
    margin: 5px;
 }
+
 .mic-name{
    position: absolute;
    bottom: 0;
@@ -67,9 +69,12 @@ footer{
    background-size: cover;
    width: 100%;
 }
+
 footer{
    padding: 10px;
 }
 footer i {
-   font-size: 30px;
+   font-size: 35px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
