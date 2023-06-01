@@ -49,8 +49,7 @@ footer{
    height: 100vh;
 }
 .card-zoom{
-   width: 100px;
-   height: 100px;
+   width: calc(33% - 10px);
    position: relative;
    margin: 5px;
 }
@@ -70,7 +69,6 @@ footer{
    background-image: url(https://picsum.photos/200);
    background-repeat: no-repeat;
    background-size: cover;
-   width: 100%;
 }
 
 footer{
